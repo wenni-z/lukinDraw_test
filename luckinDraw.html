@@ -610,7 +610,7 @@
 				history.pushState(null, null, document.URL);
 				//添加popstate监听
 				window.addEventListener("popstate", goBack, false);
-				window.removeEventListener("popstate", goBack, false);
+// 				window.removeEventListener("popstate", goBack, false);
 			}
 
 			function goBack() {
